@@ -201,3 +201,5 @@ int main()
         cout << "\n5. Search";
         cout << "\n6. Exit";
         cout << "\nEnter your choice: ";
+
+         cin >> choice;

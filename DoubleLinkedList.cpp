@@ -203,3 +203,37 @@ int main()
         cout << "\nEnter your choice: ";
 
          cin >> choice;
+
+         switch (choice)
+        {
+        case '1':
+            list.addNode();
+            break;
+        case '2':
+            list.delNode();
+            break;
+        case '3':
+            list.traverse();
+            break;
+        case '4':
+            list.revTraverse();
+            break;
+        case '5':
+            list.searchNode();
+            break;
+        case '6':
+            break;
+        default:
+            cout << "\nInvalid option";
+        }
+
+        cout << "\nPress Enter to continue...";
+        cin.ignore();
+        cin.get();
+
+    } while (choice != '6');
+
+    return 0;
+}
+
+        
